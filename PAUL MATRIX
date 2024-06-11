@@ -1,0 +1,28 @@
+final_sequences = []
+#script pour créer la matrice
+M = np.zeros((rows, cols))
+    for i in range(rows):
+        for j in range(cols):
+            M[i, j] = calculate_mfe_rnacofold(seq1, seq2) #bof
+    return M
+
+n= len(M)
+while len(final_sequences) < num_sequences:
+  for j in range(n):
+    for i in range(j + 1, n):
+      list_seq_temp=[]
+      if M[[j], [i]] >= 1.5:
+        list_seq_temp+=
+    else:
+      return True
+
+
+
+
+for seq_pair in final_sequences:
+    print(seq_pair)
+
+#déterminer le nombre de séquence ayant un bon THSD 2 à 2 si tro augmenter le THRESHOLD
+
+
+
