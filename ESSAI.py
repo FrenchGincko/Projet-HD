@@ -95,3 +95,8 @@ for i, seq1 in enumerate(sequences):
 # Afficher les séquences finales
 for seq_pair in final_sequences:
     print(seq_pair)
+
+
+
+
+NIMPORTE QUOI
